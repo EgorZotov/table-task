@@ -66,7 +66,6 @@ $(document).ready(function(){
 			temparr.push([content,$(this).attr("id")]);
 
 		});
-		console.log(temparr);
 		function arraysort(a,b) {
 			if(a[0]<b[0]) {
 				return (-1)*sort_coeff;
