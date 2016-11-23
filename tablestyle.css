@@ -1,0 +1,143 @@
+.font
+{
+	font-family:Arial;
+	font-size:14px;
+	color:#2f60e0;
+}
+.italy_league
+{
+	width:100%; 
+	border-collapse: collapse;
+
+}
+.place
+{
+	width: 30px;
+	height: 28px;  
+	min-width:30px;
+	padding-left:10px;
+	border-bottom: 1px solid #d8d8d8;  
+	border-top: 1px solid #d8d8d8;
+}
+.team
+{	
+	text-align: left;
+	min-width:140px;
+	border-bottom: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8;
+	padding-left:10px;
+	font-family: Arial;
+	font-size: 14px;  
+}
+.team>a
+{
+	 text-decoration: none;
+	 color:#2f60e0;
+}
+.matches
+{
+	width: 40px;
+	min-width:40px;
+	text-align: right;
+	border-bottom: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+	padding-right:10px; 
+}
+@media (max-width:640px)
+{
+	.goals 
+	{
+		display:none;
+	}
+	.missed 
+	{
+		display:none;
+	}
+	.goals_description
+	{
+		display:none;	
+	}
+}	
+@media (max-width:460px)
+{
+	.goals 
+	{
+		display:none;
+	}
+	.missed 
+	{
+		display:none;
+	}	
+	.wins
+	{
+		display:none;	
+	}
+	.draw
+	{
+		display:none;
+	}
+	.lose
+	{
+		display:none;
+	}
+	.play_description
+	{
+		display:none;	
+	}
+}
+.wins
+{
+	width: 40px;
+	min-width:40px;
+	text-align: right;
+	border-bottom: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+	padding-right:10px;
+}
+.draw
+{
+	width: 40px;
+	min-width:40px;
+	text-align: right;
+	border-bottom: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+	padding-right:10px;
+}
+.lose
+{
+	width: 40px;
+	min-width:40px;
+	text-align: right;
+	border-bottom: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+	padding-right:10px;
+}
+.goals
+{
+	width: 40px;
+	min-width:40px;
+	text-align: right;
+	border-bottom: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+	padding-right:10px;
+}
+.missed
+{
+	width: 40px;
+	min-width:40px;
+	text-align: right;
+	border-bottom: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+	padding-right:10px;
+}
+.score
+{
+	width: 40px;
+	min-width:40px;
+	text-align: right;
+	border-bottom: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+	padding-right:10px;
+	background-color: #f9f9f7;
+}
