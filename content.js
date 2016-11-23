@@ -57,10 +57,8 @@ $(document).ready(function(){
 		}
 		var temparr=[];
 		$(".italy_league_body tr").each(function() {
-			var content = $(this).children("td").eq(col_index).html();//.split(" ").join("");
+			var content = $(this).children("td").eq(col_index).html();
 			
-			/*z=z.split("А").join("");
-			z=z.split("Б").join("");*/
 			if(isFinite(content)) {content=parseInt(content);} else 
 			{content = $(this).children("td").eq(col_index).children("a").html();}
 			temparr.push([content,$(this).attr("id")]);
